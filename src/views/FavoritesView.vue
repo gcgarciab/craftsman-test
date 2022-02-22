@@ -34,12 +34,12 @@
 import { storeToRefs } from 'pinia';
 import { computed, onBeforeMount, ref } from 'vue';
 
-import useBookStore from '../stores/book';
-import AppLoader from '../ui/AppLoader.vue';
-import BookCard from '../components/BookCard.vue';
-import ErrorMessage from '../components/ErrorMessage.vue';
-import BookVolumeInfo from '../interfaces/book/book-volume-info';
-import BackToHomeButton from '../components/BackToHomeButton.vue';
+import useBookStore from '@/stores/book';
+import AppLoader from '@/ui/AppLoader.vue';
+import BookCard from '@/components/BookCard.vue';
+import ErrorMessage from '@/components/ErrorMessage.vue';
+import BackToHomeButton from '@/components/BackToHomeButton.vue';
+import BookVolumeInfo from '@/interfaces/book/book-volume-info';
 
 const store = useBookStore();
 const { favorites } = storeToRefs(store);

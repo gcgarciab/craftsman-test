@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import useMainStore from '../stores/main';
-import BookDetailView from '../views/BookDetailView.vue';
-import FavoritesView from '../views/FavoritesView.vue';
+import BookDetailView from '@/views/BookDetailView.vue';
+import FavoritesView from '@/views/FavoritesView.vue';
 
 import HomeView from '../views/HomeView.vue';
 

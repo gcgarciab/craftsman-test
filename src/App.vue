@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import { watch } from 'vue';
-import useBookStore from './stores/book';
+import useBookStore from '@/stores/book';
 
 const store = useBookStore();
 

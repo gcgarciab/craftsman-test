@@ -68,10 +68,10 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
 import { useRouter } from 'vue-router';
-import AppButton from '../ui/AppButton.vue';
-import ButtonType from '../enums/button-type';
-import ButtonColor from '../enums/button-color';
-import BookVolumeInfo from '../interfaces/book/book-volume-info';
+import AppButton from '@/ui/AppButton.vue';
+import ButtonType from '@/enums/button-type';
+import ButtonColor from '@/enums/button-color';
+import BookVolumeInfo from '@/interfaces/book/book-volume-info';
 
 const router = useRouter();
 const emit = defineEmits(['toggleFavorite']);

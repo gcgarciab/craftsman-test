@@ -4,8 +4,8 @@
 
 <script setup lang="ts">
 import { computed, PropType } from 'vue';
-import BookPrice from '../interfaces/book/book-price';
-import formatNumber from '../utils/format-number';
+import BookPrice from '@/interfaces/book/book-price';
+import formatNumber from '@/utils/format-number';
 
 const props = defineProps({
   price: {

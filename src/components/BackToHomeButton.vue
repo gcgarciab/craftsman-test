@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import AppButton from '../ui/AppButton.vue';
-import ButtonType from '../enums/button-type';
-import ButtonColor from '../enums/button-color';
+import AppButton from '@/ui/AppButton.vue';
+import ButtonType from '@/enums/button-type';
+import ButtonColor from '@/enums/button-color';
 </script>

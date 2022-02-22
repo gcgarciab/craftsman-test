@@ -23,10 +23,7 @@
 
       <div v-if="volumeInfo.description" class="description item">
         <h4 class="subtitle">Description</h4>
-        <div
-          class="description-data text-left px-5"
-          v-html="volumeInfo.description"
-        />
+        <div class="description-data text-left px-5" v-html="volumeInfo.description" />
       </div>
 
       <div v-if="volumeInfo.categories?.length" class="categories item">
@@ -54,11 +51,7 @@
           </div>
 
           <div class="book-link">
-            <AppButton
-              text="Info"
-              icon="book"
-              @click="goToLink(volumeInfo.infoLink!)"
-            />
+            <AppButton text="Info" icon="book" @click="goToLink(volumeInfo.infoLink!)" />
           </div>
 
           <div class="book-link">
@@ -124,18 +117,18 @@ import { storeToRefs } from 'pinia';
 import { useRoute } from 'vue-router';
 import { computed, onBeforeMount, reactive } from 'vue';
 
-import useBookStore from '../stores/book';
-import useMainStore from '../stores/main';
-import Book from '../interfaces/book';
-import ButtonType from '../enums/button-type';
-import ButtonColor from '../enums/button-color';
-import BookSaleability from '../enums/book-saleability';
-import BookCard from '../components/BookCard.vue';
-import BookPrice from '../components/BookPrice.vue';
-import ErrorMessage from '../components/ErrorMessage.vue';
-import AppLoader from '../ui/AppLoader.vue';
-import AppButton from '../ui/AppButton.vue';
-import BackToHomeButton from '../components/BackToHomeButton.vue';
+import useBookStore from '@/stores/book';
+import useMainStore from '@/stores/main';
+import Book from '@/interfaces/book';
+import ButtonType from '@/enums/button-type';
+import ButtonColor from '@/enums/button-color';
+import BookSaleability from '@/enums/book-saleability';
+import AppLoader from '@/ui/AppLoader.vue';
+import AppButton from '@/ui/AppButton.vue';
+import BookCard from '@/components/BookCard.vue';
+import BookPrice from '@/components/BookPrice.vue';
+import ErrorMessage from '@/components/ErrorMessage.vue';
+import BackToHomeButton from '@/components/BackToHomeButton.vue';
 
 const route = useRoute();
 const bookStore = useBookStore();
@@ -144,9 +137,7 @@ const currentBook = reactive<Book>({} as Book);
 const { favorites } = storeToRefs(bookStore);
 const bookId = route.params.id as string;
 
-const isSelectedBookEmpty = computed(
-  () => Object.keys(currentBook).length === 0
-);
+const isSelectedBookEmpty = computed(() => Object.keys(currentBook).length === 0);
 
 const saleInfo = computed(() => currentBook.saleInfo);
 const volumeInfo = computed(() => currentBook.volumeInfo);
@@ -171,9 +162,7 @@ function toggleFavoriteBook(id: string) {
 onBeforeMount(async () => {
   mainStore.$patch({ isLoading: true });
 
-  const data = await bookStore
-    .fetchBookById(bookId)
-    .catch(() => mainStore.$reset());
+  const data = await bookStore.fetchBookById(bookId).catch(() => mainStore.$reset());
 
   Object.assign(currentBook, data);
   mainStore.$reset();

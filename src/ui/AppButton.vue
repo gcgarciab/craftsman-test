@@ -23,8 +23,8 @@
 
 <script setup lang="ts">
 import { PropType } from 'vue';
-import ButtonType from '../enums/button-type';
-import ButtonColor from '../enums/button-color';
+import ButtonType from '@/enums/button-type';
+import ButtonColor from '@/enums/button-color';
 
 const props = defineProps({
   type: {

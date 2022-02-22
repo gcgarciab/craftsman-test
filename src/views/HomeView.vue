@@ -76,15 +76,15 @@
 import { computed, ref } from 'vue';
 import { storeToRefs } from 'pinia';
 
-import useBookStore from '../stores/book';
-import useMainStore from '../stores/main';
-import ButtonType from '../enums/button-type';
-import ButtonColor from '../enums/button-color';
-import BookCard from '../components/BookCard.vue';
-import ErrorMessage from '../components/ErrorMessage.vue';
-import AppInputField from '../ui/AppInputField.vue';
-import AppButton from '../ui/AppButton.vue';
-import AppLoader from '../ui/AppLoader.vue';
+import useBookStore from '@/stores/book';
+import useMainStore from '@/stores/main';
+import ButtonType from '@/enums/button-type';
+import ButtonColor from '@/enums/button-color';
+import BookCard from '@/components/BookCard.vue';
+import ErrorMessage from '@/components/ErrorMessage.vue';
+import AppButton from '@/ui/AppButton.vue';
+import AppLoader from '@/ui/AppLoader.vue';
+import AppInputField from '@/ui/AppInputField.vue';
 
 const search = ref('');
 const bookStore = useBookStore();
