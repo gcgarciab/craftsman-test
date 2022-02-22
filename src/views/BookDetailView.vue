@@ -97,8 +97,10 @@
       </div>
     </div>
 
+    <AppLoader v-if="mainStore.isLoading" />
+
     <ErrorMessage
-      v-else
+      v-if="isSelectedBookEmpty && !mainStore.isLoading"
       title="Error!"
       description="Not found data from current book"
       icon="exclamation-triangle"
@@ -113,6 +115,7 @@ import { useRoute } from 'vue-router';
 import { computed, onBeforeMount, reactive } from 'vue';
 
 import useBookStore from '../stores/book';
+import useMainStore from '../stores/main';
 import Book from '../interfaces/book';
 import ButtonType from '../enums/button-type';
 import ButtonColor from '../enums/button-color';
@@ -121,11 +124,13 @@ import BookCard from '../components/BookCard.vue';
 import BookPrice from '../components/BookPrice.vue';
 import AppButton from '../ui/AppButton.vue';
 import ErrorMessage from '../components/ErrorMessage.vue';
+import AppLoader from '../ui/AppLoader.vue';
 
 const route = useRoute();
-const store = useBookStore();
+const bookStore = useBookStore();
+const mainStore = useMainStore();
 const currentBook = reactive<Book>({} as Book);
-const { favorites } = storeToRefs(store);
+const { favorites } = storeToRefs(bookStore);
 const bookId = route.params.id as string;
 
 /**
@@ -152,12 +157,14 @@ function goToLink(url: string): void {
  * @param id => Book id
  */
 function toggleFavoriteBook(id: string) {
-  store.toggleFavoriteBook(id);
+  bookStore.toggleFavoriteBook(id);
 }
 
 onBeforeMount(async () => {
-  const data = await store.fetchBookById(bookId);
+  mainStore.$patch({ isLoading: true });
+  const data = await bookStore.fetchBookById(bookId);
   Object.assign(currentBook, data);
+  mainStore.$reset();
 });
 </script>
 
