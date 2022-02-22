@@ -9,10 +9,10 @@
     "eslint:recommended",
     "plugin:vue/essential",
     "airbnb-base",
-    "prettier",
     "plugin:import/recommended",
     "plugin:import/typescript",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "prettier"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -22,6 +22,7 @@
   "plugins": [
     "vue",
     "@typescript-eslint",
+    "jest",
     "prettier"
   ],
   "overrides": [
