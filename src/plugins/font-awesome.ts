@@ -9,6 +9,7 @@ import {
   faInfoCircle,
   faMoneyBillWave,
   faSearch,
+  faSpinner,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -16,6 +17,7 @@ library.add(faBook);
 library.add(faHome);
 library.add(faHeart);
 library.add(faSearch);
+library.add(faSpinner);
 library.add(faInfoCircle);
 library.add(faMoneyBillWave);
 library.add(faExclamationTriangle);

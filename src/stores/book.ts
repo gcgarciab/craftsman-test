@@ -5,7 +5,7 @@ import Book from '../interfaces/book';
 import BookVolumeInfo from '../interfaces/book/book-volume-info';
 // import booksSearchMock from '../mocks/books-search';
 
-const localFavorites = JSON.parse(localStorage.getItem('favorites') || '');
+const localFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 
 const useBookStore = defineStore({
   id: 'book',
@@ -16,6 +16,7 @@ const useBookStore = defineStore({
     favorites: (localFavorites || []) as string[],
     totalItems: 0,
     currentPage: 1,
+    currentSearch: '',
     itemsPerPage: 20,
   }),
 
@@ -42,11 +43,16 @@ const useBookStore = defineStore({
           duration: 3000,
           ignoreDuplicates: true,
         });
-      } else {
-        // Add results
-        this.totalItems = response.totalItems;
+      } else if (this.currentSearch === search) {
+        // Concat results
         this.books = [...this.books, ...response.items];
+      } else {
+        // Set new results
+        this.currentSearch = search;
+        this.books = [...response.items];
       }
+
+      this.totalItems = response.totalItems;
     },
 
     /**

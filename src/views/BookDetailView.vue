@@ -1,6 +1,15 @@
 <template>
   <section class="book-detail wrapper">
-    <div v-if="!isSelectedBookEmpty" class="book-info">
+    <div v-if="!isSelectedBookEmpty" class="book-info items-container">
+      <AppButton
+        icon="heart"
+        class="absolute top-5 right-5"
+        title="Go to favorites"
+        :type="ButtonType.BUTTON"
+        :color="ButtonColor.DANGER"
+        @click="$router.push({ name: 'Favorites' })"
+      />
+
       <h2 class="title">Book detail</h2>
 
       <div class="volume-info item">
@@ -35,7 +44,7 @@
       <div class="book-links item">
         <h4 class="subtitle">Quick links</h4>
 
-        <div class="links flex items-center">
+        <div class="links">
           <div class="book-link">
             <AppButton
               text="Preview"
@@ -68,8 +77,8 @@
       >
         <h4 class="subtitle">Price</h4>
 
-        <div class="prices px-5">
-          <div class="price-items flex justify-between border">
+        <div class="prices px-2 lg:px-5">
+          <div class="price-items">
             <p v-if="saleInfo.listPrice?.amount" class="book-price">
               <span>List Price:</span>
               <BookPrice :price="saleInfo.listPrice" />
@@ -80,10 +89,7 @@
               <BookPrice :price="saleInfo.retailPrice" />
             </p>
 
-            <div
-              v-if="saleInfo.buyLink"
-              class="sale-action w-1/3 flex justify-center my-5"
-            >
+            <div v-if="saleInfo.buyLink" class="sale-action">
               <AppButton
                 icon="money-bill-wave"
                 text="Buy"
@@ -95,17 +101,21 @@
           </div>
         </div>
       </div>
+
+      <BackToHomeButton />
     </div>
 
-    <AppLoader v-if="mainStore.isLoading" />
+    <template v-else>
+      <AppLoader v-if="mainStore.isLoading" />
 
-    <ErrorMessage
-      v-if="isSelectedBookEmpty && !mainStore.isLoading"
-      title="Error!"
-      description="Not found data from current book"
-      icon="exclamation-triangle"
-      :back-to-home="true"
-    />
+      <ErrorMessage
+        v-else
+        title="Error!"
+        description="Not found data from current book"
+        icon="exclamation-triangle"
+        :back-to-home="true"
+      />
+    </template>
   </section>
 </template>
 
@@ -122,9 +132,10 @@ import ButtonColor from '../enums/button-color';
 import BookSaleability from '../enums/book-saleability';
 import BookCard from '../components/BookCard.vue';
 import BookPrice from '../components/BookPrice.vue';
-import AppButton from '../ui/AppButton.vue';
 import ErrorMessage from '../components/ErrorMessage.vue';
 import AppLoader from '../ui/AppLoader.vue';
+import AppButton from '../ui/AppButton.vue';
+import BackToHomeButton from '../components/BackToHomeButton.vue';
 
 const route = useRoute();
 const bookStore = useBookStore();
@@ -133,9 +144,6 @@ const currentBook = reactive<Book>({} as Book);
 const { favorites } = storeToRefs(bookStore);
 const bookId = route.params.id as string;
 
-/**
- * Check if current book data was loaded successfully.
- */
 const isSelectedBookEmpty = computed(
   () => Object.keys(currentBook).length === 0
 );
@@ -170,22 +178,43 @@ onBeforeMount(async () => {
 
 <style scoped>
 .item {
-  @apply my-10 text-left;
+  @apply my-10 text-left w-full;
 }
 
-.description-data >>> p {
+.description-data :deep(p) {
   @apply my-6;
 }
 
+.price-items {
+  @apply flex flex-col justify-between border md:flex-row;
+}
+
 .price-items > :nth-child(2) {
-  @apply border-x;
+  @apply border-y;
+  @apply md:border-x md:border-y-0;
 }
 
 .price-items .book-price {
-  @apply w-1/3 flex justify-center items-center;
+  @apply w-full py-6 flex justify-center items-center;
+  @apply md:w-1/3;
+}
+
+.sale-action {
+  @apply w-full px-10 m-auto flex flex-col justify-center my-5;
+  @apply sm:w-3/4;
+  @apply md:w-1/3 md:flex-row;
+}
+
+.links {
+  @apply flex w-full flex-col items-center;
+  @apply sm:flex-wrap sm:flex-row;
 }
 
 .book-link {
-  @apply w-1/3 flex flex-col px-10;
+  @apply w-full flex flex-col items-stretch px-16 my-4;
+  @apply sm:px-2 sm:w-1/3;
+  @apply md:px-4 md:my-0;
+  @apply lg:px-10;
+  @apply xl:px-16;
 }
 </style>

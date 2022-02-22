@@ -2,7 +2,7 @@
   <section class="favorites wrapper">
     <h2 class="title">Favorites</h2>
 
-    <div v-if="booksToShow.length > 0" class="favorite-items">
+    <div v-if="booksToShow.length > 0" class="favorite-items items-container">
       <BookCard
         v-for="book in booksToShow"
         :key="book.id"
@@ -12,11 +12,21 @@
         :is-favorite="favorites.includes(book.id!)"
         @toggle-favorite="toggleFavoriteBook(book.id!)"
       />
+
+      <BackToHomeButton />
     </div>
 
-    <div v-else class="h-80 flex justify-center items-center">
-      <AppLoader />
-    </div>
+    <template v-else>
+      <AppLoader v-if="favorites.length > 0" />
+
+      <ErrorMessage
+        v-else
+        title="Ups!"
+        description="You don't have favorites yet"
+        icon="exclamation-triangle"
+        :back-to-home="true"
+      />
+    </template>
   </section>
 </template>
 
@@ -27,7 +37,9 @@ import { computed, onBeforeMount, ref } from 'vue';
 import useBookStore from '../stores/book';
 import AppLoader from '../ui/AppLoader.vue';
 import BookCard from '../components/BookCard.vue';
+import ErrorMessage from '../components/ErrorMessage.vue';
 import BookVolumeInfo from '../interfaces/book/book-volume-info';
+import BackToHomeButton from '../components/BackToHomeButton.vue';
 
 const store = useBookStore();
 const { favorites } = storeToRefs(store);

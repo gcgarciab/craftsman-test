@@ -1,7 +1,7 @@
 <template>
   <div class="book-card">
     <div class="book-header">
-      <div class="book-image w-36">
+      <div class="book-image w-36 h-48 flex justify-center items-center border">
         <img
           :src="volumeInfo.imageLinks?.smallThumbnail"
           alt="Book image"
@@ -106,7 +106,7 @@ function goToCurrentBook(id: string): void {
 <style scoped>
 .book-card {
   min-height: 16rem;
-  @apply relative rounded-lg shadow-md px-6 py-10;
+  @apply relative rounded-lg shadow-md px-6 py-10 w-full;
   @apply md:px-10 md:py-8 border my-6;
 }
 
@@ -116,14 +116,13 @@ function goToCurrentBook(id: string): void {
 }
 
 .book-title {
-  @apply font-semibold;
-  @apply sm:px-20;
-  @apply md:pl-0 pr-16 md:text-left;
+  @apply px-16 font-semibold;
+  @apply md:pl-0 pr-20 md:text-left;
 }
 
 .main-info {
-  @apply mt-10 text-center;
-  @apply md:mt-0 md:ml-5 md:text-left;
+  @apply w-full mt-10 text-center;
+  @apply md:mt-0 md:ml-5 md:text-left md:w-3/4;
   @apply lg:w-5/6;
 }
 
