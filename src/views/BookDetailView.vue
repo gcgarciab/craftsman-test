@@ -170,7 +170,11 @@ function toggleFavoriteBook(id: string) {
 
 onBeforeMount(async () => {
   mainStore.$patch({ isLoading: true });
-  const data = await bookStore.fetchBookById(bookId);
+
+  const data = await bookStore
+    .fetchBookById(bookId)
+    .catch(() => mainStore.$reset());
+
   Object.assign(currentBook, data);
   mainStore.$reset();
 });

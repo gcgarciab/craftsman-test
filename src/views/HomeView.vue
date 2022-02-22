@@ -102,7 +102,9 @@ const allowSearchButton = computed(
  */
 async function searchBook(): Promise<void> {
   mainStore.$patch({ isLoading: true });
-  await bookStore.fetchBooks(search.value);
+
+  await bookStore.fetchBooks(search.value).catch(() => mainStore.$reset());
+
   searchDone.value = true;
   mainStore.$reset();
 }

@@ -1,5 +1,6 @@
 import NProgress from 'nprogress';
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import { notify } from '@kyvg/vue3-notification';
 
 const httpClient: AxiosInstance = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
@@ -45,6 +46,15 @@ httpClient.interceptors.response.use(
   async (error) => {
     NProgress.done();
     console.log(error.response.data);
+
+    notify({
+      title: error.response.data.error.code,
+      text: error.response.data.error.message,
+      type: 'error',
+      duration: 3000,
+      ignoreDuplicates: true,
+    });
+
     return Promise.reject(error);
   }
 );
