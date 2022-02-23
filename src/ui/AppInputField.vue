@@ -10,6 +10,7 @@
         :value="modelValue"
         :placeholder="placeholder"
         :class="{ 'with-icon': icon }"
+        data-test="input-field"
         @input="updateValue($event)"
         @blur="$emit('checkErrors')"
       />

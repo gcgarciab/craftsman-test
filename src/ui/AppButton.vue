@@ -1,6 +1,7 @@
 <template>
   <button
     class="text-white"
+    :data-test="`${testName ? testName : 'button'}`"
     :class="[
       { 'mt-8': marginTop },
       [text ? 'px-10' : 'px-2'],
@@ -12,8 +13,8 @@
     :title="focusText"
   >
     <fa
-      class="icon text-sm"
       v-if="icon"
+      class="icon text-sm"
       :icon="icon"
       :class="{ 'mr-2': text }"
     />
@@ -55,7 +56,12 @@ const props = defineProps({
     type: String,
     required: false,
   },
+  testName: {
+    type: String,
+    required: false,
+  },
 });
+console.log(props.icon);
 </script>
 
 <style scoped>

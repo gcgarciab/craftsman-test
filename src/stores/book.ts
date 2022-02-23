@@ -81,7 +81,7 @@ const useBookStore = defineStore({
         this.favorites.map(async (bookId) => {
           const bookData = await this.fetchBookById(bookId);
           
-          console.log(bookData.volumeInfo);
+          console.log(bookData);
           console.log({ id: bookId });
           return { ...bookData.volumeInfo, id: bookId };
         })

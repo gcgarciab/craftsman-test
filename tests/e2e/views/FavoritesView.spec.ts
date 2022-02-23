@@ -2,12 +2,13 @@ import { mount, shallowMount } from '@vue/test-utils';
 import flushPromises from 'flush-promises';
 import { createTestingPinia, TestingOptions } from '@pinia/testing';
 import useBookStore from '@/stores/book';
-import favoritesData from '@/mocks/books-by-id.json';
+import data from '@/mocks/books-by-id.json';
 import FavoritesView from '@/views/FavoritesView.vue';
+import findById from '@/utils/find-by-id';
 
 jest.mock('axios', () => ({
   create: jest.fn(() => ({
-    get: jest.fn(() => Promise.resolve({ data: favoritesData })),
+    get: jest.fn((id: string) => Promise.resolve({ data: findById(data, id) })),
     interceptors: {
       request: { use: jest.fn(), eject: jest.fn() },
       response: { use: jest.fn(), eject: jest.fn() },
@@ -29,19 +30,15 @@ describe('FavoritesView', () => {
     return { wrapper, store };
   }
 
-  // it('FetchFavoriteBooks store action', async () => {
-  //   const { store, wrapper } = factory({ stubActions: false });
-  //   // await store.fetchFavoriteBooks();
-  //   await flushPromises();
-
-  //   // Calls fetchBookById 3 times
-  //   expect(wrapper.html()).toMatchSnapshot();
-  //   expect(store.fetchBookById).toHaveBeenCalledTimes(3);
-  // });
-
-  it('BeforeMount calls FetchFavoriteBooks action', async () => {
+  it('Call fetchFavoriteBooks store action', async () => {
     const { store, wrapper } = factory({ stubActions: false });
 
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
     
+    // Await beforemount calls
+    expect(store.fetchFavoriteBooks).toBeCalled();
+    expect(wrapper.html()).toMatchSnapshot();
   });
 });

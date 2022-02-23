@@ -49,6 +49,7 @@
             <AppButton
               text="Preview"
               icon="book"
+              test-name="preview-link"
               @click="goToLink(volumeInfo.previewLink!)"
             />
           </div>
@@ -57,6 +58,7 @@
             <AppButton
               text="Info"
               icon="book"
+              test-name="info-link"
               @click="goToLink(volumeInfo.infoLink!)"
             />
           </div>
@@ -65,6 +67,7 @@
             <AppButton
               text="Canonical"
               icon="book"
+              test-name="canonical-link"
               @click="goToLink(volumeInfo.canonicalVolumeLink!)"
             />
           </div>
@@ -93,6 +96,7 @@
               <AppButton
                 icon="money-bill-wave"
                 text="Buy"
+                test-name="buy-link"
                 :type="ButtonType.BUTTON"
                 :color="ButtonColor.SUCCESS"
                 @click="goToLink(saleInfo.buyLink!)"
@@ -156,6 +160,7 @@ const volumeInfo = computed(() => currentBook.volumeInfo);
  * @param url => Buy URL
  */
 function goToLink(url: string): void {
+  console.log('Click !!');
   window.open(url, '_blank');
 }
 
@@ -168,14 +173,16 @@ function toggleFavoriteBook(id: string) {
   bookStore.toggleFavoriteBook(id);
 }
 
-// onBeforeMount(async () => {
-//   mainStore.$patch({ isLoading: true });
+onBeforeMount(async () => {
+  mainStore.$patch({ isLoading: true });
 
-//   const data = await bookStore.fetchBookById(bookId).catch(() => mainStore.$reset());
+  const data = await bookStore
+    .fetchBookById(bookId)
+    .catch(() => mainStore.$reset());
 
-//   Object.assign(currentBook, data);
-//   mainStore.$reset();
-// });
+  Object.assign(currentBook, data);
+  mainStore.$reset();
+});
 </script>
 
 <style scoped>

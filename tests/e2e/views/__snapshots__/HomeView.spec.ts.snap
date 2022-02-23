@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
+"<section class=\\"home wrapper\\"><button class=\\"text-white px-2 flex items-center justify-center danger absolute top-5 right-5\\" data-test=\\"button\\" type=\\"button\\" title=\\"Go to favorites\\">
+    <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+  </button>
+  <form class=\\"books-search\\"><img alt=\\"Craftman Logo\\" title=\\"Craftman Logo\\" class=\\"mb-10 w-3/4 lg:w-3/5\\">
+    <div class=\\"form-row\\">
+      <div class=\\"search-input w-full\\">
+        <div class=\\"input-block\\">
+          <!--v-if-->
+          <div class=\\"input\\">
+            <fa class=\\"input-icon\\" icon=\\"search\\"></fa><input type=\\"text\\" placeholder=\\"Search books by volume\\" class=\\"with-icon\\" data-test=\\"input-field\\">
+            <!--v-if-->
+            <!--v-if-->
+          </div>
+        </div>
+      </div><button class=\\"text-white px-10 inline primary\\" data-test=\\"button\\" type=\\"submit\\" disabled=\\"\\">
+        <!--v-if--> Search
+      </button>
+    </div>
+  </form>
+  <div class=\\"books-result m-auto lg:w-5/6\\">
+    <div class=\\"book-cards flex flex-col m-auto\\">
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=b-hH4Ma4Hq0C&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">¡el Primer Libro de Fútbol para el Bebé!
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Stephen Berg</span></h4>
+            <p class=\\"published mt-3\\">Sole Books, 2012-11-14</p>
+            <div class=\\"language mt-3\\"> Language: (ES)
+              <!--v-if-->
+            </div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=qtmxDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">The Soccer Goalie <span class=\\"book-subtitle\\">El portero</span></h3>
+            <h4 class=\\"authors\\"><span>Madison Capitano</span><span>Pablo de la Vega</span></h4>
+            <p class=\\"published mt-3\\">Carson-Dellosa Publishing, 2020-01-07</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 32</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=zt9fCQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">¡Cuenta conmigo! El torneo de fútbol (Count Me In! Soccer Tournament) 6-Pack
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Lisa  Greathouse</span></h4>
+            <p class=\\"published mt-3\\">Teacher Created Materials, 2012-03-30</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 28</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=UOAiEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">¡Hora de fútbol! (Soccer Time!)
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Brendan Flynn</span></h4>
+            <p class=\\"published mt-3\\">Lerner Digital ™, 2017-08-01</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=3yfwAAAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">The Soccer Yellow Pages
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"></h4>
+            <!--v-if-->
+            <div class=\\"language mt-3\\"> Language: (EN)
+              <!--v-if-->
+            </div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=SHMDEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">¡Hora del fútbol! (Soccer Time! Spanish Edition)
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Terry Pierce</span></h4>
+            <p class=\\"published mt-3\\">Random House Books for Young Readers, 2021-07-06</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 32</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=8uU_DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">El futbol Soccer es divertido (Soccer is Fun)
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Calee M. Lee</span></h4>
+            <p class=\\"published mt-3\\">Xist Publishing, 2017-12-01</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=TXXWww7KOFsC&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">La historia del fútbol (The Story of Soccer)
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Anastasia Suen</span></h4>
+            <p class=\\"published mt-3\\">The Rosen Publishing Group, Inc, 2003-12-15</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=UEFgDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;edge=curl&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">Es hora de jugar f�tbol (It's Time for the Soccer Game)
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>Sadie Woods</span></h4>
+            <p class=\\"published mt-3\\">The Rosen Publishing Group, Inc, 2017-07-15</p>
+            <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div>
+      <div class=\\"book-card\\">
+        <div class=\\"book-header\\">
+          <div class=\\"book-image w-36 h-48 flex justify-center items-center border\\"><img src=\\"http://books.google.com/books/content?id=j4BYAAAAYAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_api\\" alt=\\"Book image\\" title=\\"Book image\\"></div>
+          <div class=\\"main-info\\">
+            <h3 class=\\"book-title\\">Soccer
+              <!--v-if-->
+            </h3>
+            <h4 class=\\"authors\\"><span>V-Five Association of America</span></h4>
+            <!--v-if-->
+            <div class=\\"language mt-3\\"> Language: (EN) <span class=\\"total-pages mt-3\\"> - Pages: 192</span></div>
+          </div>
+        </div>
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+            <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
+          </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
+            <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
+          </button></div>
+      </div><button class=\\"text-white mt-8 px-10 flex items-center justify-center default\\" data-test=\\"load-more\\" type=\\"button\\">
+        <fa class=\\"icon text-sm mr-2\\" icon=\\"spinner\\"></fa> Load more
+      </button>
+    </div>
+    <!--v-if-->
+  </div>
+</section>"
+`;

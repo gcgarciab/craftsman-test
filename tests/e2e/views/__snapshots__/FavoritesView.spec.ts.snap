@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FavoritesView FetchFavoriteBooks store action 1`] = `
+exports[`FavoritesView Call fetchFavoriteBooks store action 1`] = `
 "<section class=\\"favorites wrapper\\">
   <h2 class=\\"title\\">Favorites</h2>
   <div class=\\"h-80 flex justify-center items-center\\">

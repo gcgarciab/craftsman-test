@@ -56,6 +56,7 @@
 
       <AppButton
         icon="heart"
+        test-name="add-to-favorites"
         :focus-text="`${isFavorite ? 'Remove from' : 'Add to'} favorites`"
         :type="ButtonType.BUTTON"
         :color="isFavorite ? ButtonColor.DANGER : ButtonColor.DEFAULT"

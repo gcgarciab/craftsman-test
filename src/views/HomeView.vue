@@ -53,6 +53,7 @@
         <AppButton
           text="Load more"
           icon="spinner"
+          test-name="load-more"
           :margin-top="true"
           :type="ButtonType.BUTTON"
           :color="ButtonColor.DEFAULT"
