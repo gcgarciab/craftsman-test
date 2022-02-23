@@ -61,7 +61,6 @@ const props = defineProps({
     required: false,
   },
 });
-console.log(props.icon);
 </script>
 
 <style scoped>
