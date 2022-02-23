@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 import { notify } from '@kyvg/vue3-notification';
 import requests from '../helpers/http';
+import BookState from '../interfaces/store/book-state';
 import Book from '../interfaces/book';
 import BookVolumeInfo from '../interfaces/book/book-volume-info';
 // import booksSearchMock from '../mocks/books-search';
@@ -11,14 +12,14 @@ const useBookStore = defineStore({
   id: 'book',
 
   state: () => ({
-    books: [] as Book[],
+    books: [],
     // books: booksSearchMock.items,
-    favorites: (localFavorites || []) as string[],
+    favorites: localFavorites || [],
     totalItems: 0,
     currentPage: 1,
     currentSearch: '',
     itemsPerPage: 20,
-  }),
+  } as BookState),
 
   actions: {
     /**
@@ -79,7 +80,9 @@ const useBookStore = defineStore({
       return Promise.all(
         this.favorites.map(async (bookId) => {
           const bookData = await this.fetchBookById(bookId);
-
+          
+          console.log(bookData.volumeInfo);
+          console.log({ id: bookId });
           return { ...bookData.volumeInfo, id: bookId };
         })
       );

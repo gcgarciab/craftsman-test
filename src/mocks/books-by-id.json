@@ -1,0 +1,404 @@
+[
+  {
+    "kind": "books#volume",
+    "id": "VvJZ3lp2sg0C",
+    "etag": "5c9bwjU5aWE",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/VvJZ3lp2sg0C",
+    "volumeInfo": {
+      "title": "SEAFOOD COOK BOOK",
+      "publisher": "",
+      "publishedDate": "1973",
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 112,
+      "printedPageCount": 112,
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.6.5.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=VvJZ3lp2sg0C&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71xS6JObSmwNwrTfoDr8Sz1zoFuOllqscsfjDaWHrRcI3iznK8QFhq4-TD7gd3m7MmgEoyhdIYY5UXcHRY7z-ZzM1nmNZ-b3cyBqbCUXgeXslF3DfnAMUSD5W6SgIHfbDb8bpVf&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=VvJZ3lp2sg0C&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73jD8XwUaK-2HNxWDI_8RbvSM13EvSJ5wHhfR54nP5YmfC51PtSAEuj9MKui7k94lvk4yNK6Xkx37RU3s6J6eMBRlnGTf-0D4pVI0qiN9sGCmKL4sOJSrXcv11hUr2C880p_1vJ&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com.co/books?id=VvJZ3lp2sg0C&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=VvJZ3lp2sg0C&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VvJZ3lp2sg0C"
+    },
+    "saleInfo": {
+      "country": "CO",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CO",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=VvJZ3lp2sg0C&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "zt9fCQAAQBAJ",
+    "etag": "7PoUSTN1k/U",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/zt9fCQAAQBAJ",
+    "volumeInfo": {
+      "title": "¡Cuenta conmigo! El torneo de fútbol (Count Me In! Soccer Tournament) 6-Pack",
+      "authors": [
+        "Lisa  Greathouse"
+      ],
+      "publisher": "Teacher Created Materials",
+      "publishedDate": "2012-03-30",
+      "description": "Invite readers along on the preparations for a soccer tournament! With informational, Spanish-translated text, vibrant photos and charts, children are engaged from cover to cover while utilizing mathematical skills to increase understanding of all aspects of soccer, including sportsmanship and tournaments. This 6-Pack includes six copies of this title and a lesson plan.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "1433343266"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781433343261"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 28,
+      "printedPageCount": 18,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction / Concepts / Counting & Numbers",
+        "Juvenile Nonfiction / Sports & Recreation / Soccer",
+        "Juvenile Nonfiction / Foreign Language Study / Spanish"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71Z6NBPXTeDnhmHN6di0gGVfBbQw5UhemNuHpFyZIVvRsrNeyrINyNGIEHq4XL9dsZqFuPyBQ5dzB2feOrPloATaCBc_k998t9dO-cd1WwAUtsKu7LibmF7jjY6bjZ5si_rlr3W&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70wCCYBTOQfGBoeT9AMi2SRGEBc4zm_7J6_f4RUmnFvMCbormPdQBFgV0m2Ja7GHGFL_dzskT8B2p_y_bEe4p1QeDOPYUezYoZicC-GkdNyJ-FHDG9CZjasMlKZ8qusK1leoTA3&source=gbs_api",
+        "small": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73O36eDI2tp05k5FojzehmailDW_zybBD7fx_WIsbB63WrteMUClD1ryMduBW8H_c8Lhcgpl0rEYZsfze2E9lisx0n5wS8TVyODUoFawuHH2Vc1gmMB3wO42l5-J4ptl8wahCuk&source=gbs_api",
+        "medium": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70nor4NHbONSorP3TTlpWpTG4lWrI-uzLJAq0d4H5wtOFWbVpJhTXLwnV2l7ScEJvQN1SkC-iTIAsOzqtZFnx57TWumHbJuTVcWJIV0dC5F6mPA6wsqi10PyplbaImc_9YKMyBM&source=gbs_api",
+        "large": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71WgIP00pNrFRnlUPAoPT6UCe6aCtjkLEnGQz9FAr9qNSCGRO-vS5O6NtBAWjXwANOGA8GsUABv_NyoMwS0z9pOBxEHs0dnny0zTOgWHPA-4Er6ImB6XU6X36AIK8P0n4ye9Ruh&source=gbs_api",
+        "extraLarge": "http://books.google.com/books/publisher/content?id=zt9fCQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73NPO9crGeiYiBR9CcmwjUu8l1BgK04RCcc3PJTBljh-rTYN9nmW_IRHurmMX3qf0ZdaZNY9ikf1utQV2yHC-DrB5eb2R6KrJajXgvq9gryUUQ1knaoz9jMiSe1qgXh8--Uaf4r&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com.co/books?id=zt9fCQAAQBAJ&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=zt9fCQAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zt9fCQAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CO",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CO",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=zt9fCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "3yfwAAAAMAAJ",
+    "etag": "bq+ZE8gcqgA",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/3yfwAAAAMAAJ",
+    "volumeInfo": {
+      "title": "The Soccer Yellow Pages",
+      "publisher": "Soccer America",
+      "publishedDate": "2003",
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 202,
+      "printedPageCount": 202,
+      "dimensions": {
+        "height": "27.00 cm"
+      },
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.5.6.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70HJ65YKCNds-vWVWQzxFNJ92QQnZkSIicyaJSUbp80TAGmPdrhQLiIn9o3W60_aY1idVB5uMaLXHp0xjB7B1IfeQHz1jUcBAUIx2dbEQxJeHNBJCm9JYMPsWqMds9sbTTtodI0&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72l52PO2pAW87xF0_w_qtd5l1vYpOdaPR4c9n_PBo2u4a_hpAtVHksF-88JxaS2Us6Jhjo6CvOkWmRgCV5vZxv6FcXSNch6SnJ6tpgg9uGRXExEzz4PJuPzhR2bDVkKKjHaYg9K&source=gbs_api",
+        "small": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE72LNO-UElauOPpUX5Vj6q41t6ffmLMM2vmjOTN2cMBIZGxAytR3N8fNtl5SyEyLbcdN23p8miFCjvFfG69peEHFs2mz5rdqCE7vvsQFgOj5-wGgg0_FYRRTBT8Ajn4wyYzULFMP&source=gbs_api",
+        "medium": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=3&imgtk=AFLRE73Y1rt_xqqTNg1e0ScIAygcO3ogBRYOVgc1_RIvAmIL-xuGPpE0Q3pc-FcGPX28feUuCTs886WEVmk-bGHNbeHI8AL276_j2HhOBw9ufPfMcAee8GdV7ReA3QuEuIIPrFvW400H&source=gbs_api",
+        "large": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=4&imgtk=AFLRE73QGChYZeE8BDqnqQurfMZf88NfeyZl8hDcqyk_3K2wFITmqtpLabWm6AUsis6qsUAa9SXfxx9DdG-bqIwecSOZo0vGq9XZyevQxgrUNIGYeZzVezn6FKDtQo8av_zbZoCiGzKR&source=gbs_api",
+        "extraLarge": "http://books.google.com/books/content?id=3yfwAAAAMAAJ&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE72KRR6ypEsZsUwwPmQxrX7Pov9QSdCjEluueksQiHFwFRR-ETSh5VrDFIglu6CUY8xuAjSC9Q27a363sH-8sSE9wfgAjDb_L8wqCJz1FCIVqTeeeQEMm64eA8XhJjWhFdwQSF-7&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com.co/books?id=3yfwAAAAMAAJ&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=3yfwAAAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3yfwAAAAMAAJ"
+    },
+    "saleInfo": {
+      "country": "CO",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CO",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=3yfwAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "8uU_DwAAQBAJ",
+    "etag": "kJQzoqB/tm4",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/8uU_DwAAQBAJ",
+    "volumeInfo": {
+      "title": "El futbol Soccer es divertido (Soccer is Fun)",
+      "authors": [
+        "Calee M. Lee"
+      ],
+      "publisher": "Xist Publishing",
+      "publishedDate": "2017-12-01",
+      "description": "\u003cp\u003e\u003cb\u003eSpanish &quot;Reading Stars&quot; Beginning Reader \u003c/b\u003e \u003cp\u003e Do you know what is fun? Soccer is fun! It is fun to play soccer but it is also fun to read about it in this book. \u003cbr\u003e Reading Star books are for kids at the very beginning of a lifetime love of reading. Each book features less than 50 words and uses repetition to build confidence. \u003cp\u003e \u003cb\u003e Lector principiante \u003c/b\u003e \u003cp\u003e ¿Sabes lo que es divertido? ¡El fútbol es divertido! Es divertido jugar al fútbol, \u200b\u200bpero también es divertido leerlo en este libro. Los libros de Reading Star son para los niños en el principio de su vida amorosa por la lectura. Cada libro cuenta con menos de 50 palabras y utiliza la repetición para crear confianza.\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "153240400X"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781532404009"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 24,
+      "printedPageCount": 23,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Fiction / General",
+        "Juvenile Fiction / Sports & Recreation / Soccer"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.5.3.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE7264CB5bxFrwRIXGpQG8Vl_q0DSj1mdL998nPEf3Ti4l3S93kUTK208omJKvl6yt5uVagkakZpDIsdPn3kWs211FjIWyTP1eVz16fqM_HoW5wyeopoxfUOu9No0v6yIKHl1gCY8&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71ZLFlZHen_VPdaCTlcFj6bQ_ZFBQg-ANkLawqosSrHzgBj2B_9lqN3R7dhxnPIzKJ-nkXMuQE-aFRZJWItg3qlsgxFa2rG60rfMEcGrcOPnF3eLENY250xWsRfeYtOPrtFzv0C&source=gbs_api",
+        "small": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kYMp29HoieHtYOZle6GNVtteZYclUUJ-Uc-xN-ll-ZKtuTBM71ug1xurQI7IpOXmey7lBSY20lekRARARAc2trJTKqv6pKZO5tBvpFYCG5-yCY9j9veUCmgNyahzlbM22r2LO&source=gbs_api",
+        "medium": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73lNENWDAf88USboO6iNs9A0jpeyFUe7zgnw86kh6gMOCbrOG5lZEL0h63-0s1ewseL8hjb5WJZ4s4rz7zwCeZIhawh34vIk5FSb7jkI0Exa_xrTS6S9zmk_sS2a5lDpnffUTtn&source=gbs_api",
+        "large": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE705lL9--1oJqpQgwBNnCTdQB2J-TIzhWet5yE-ZgCRfC-FbqsASse9hdugnRQoq3ivglkwi9OKI08tvh7h0VHInAZMKHLYv5C4tvLU3MsFrMTMI8oBgZa3iIHMRQMrBYf1r55H8&source=gbs_api",
+        "extraLarge": "http://books.google.com/books/publisher/content?id=8uU_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70Gnw_kO-3s5Ocm0K8ni_5Dz4H8JNJxijl2JBqqbSz1LDGTBXmKBzwq8YLALrFqFNd8LYdBwM3tN0rANfF1n4w5vNioEFVbcVRKz1vVL4HbNSHK3d_kW8JgrVC7wzQiTdJiLV8R&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com.co/books?id=8uU_DwAAQBAJ&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=8uU_DwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8uU_DwAAQBAJ"
+    },
+    "layerInfo": {
+      "layers": [
+        {
+          "layerId": "geo",
+          "volumeAnnotationsVersion": "8"
+        }
+      ]
+    },
+    "saleInfo": {
+      "country": "CO",
+      "saleability": "FOR_SALE",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 47047,
+        "currencyCode": "COP"
+      },
+      "retailPrice": {
+        "amount": 47047,
+        "currencyCode": "COP"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=8uU_DwAAQBAJ&rdid=book-8uU_DwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 47047000000,
+            "currencyCode": "COP"
+          },
+          "retailPrice": {
+            "amountInMicros": 47047000000,
+            "currencyCode": "COP"
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CO",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com.co/books/download/El_futbol_Soccer_es_divertido_Soccer_is-sample-epub.acsm?id=8uU_DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com.co/books/download/El_futbol_Soccer_es_divertido_Soccer_is-sample-pdf.acsm?id=8uU_DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=8uU_DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "qtmxDwAAQBAJ",
+    "etag": "QhaINbEdvnU",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/qtmxDwAAQBAJ",
+    "volumeInfo": {
+      "title": "The Soccer Goalie",
+      "subtitle": "El portero",
+      "authors": [
+        "Madison Capitano",
+        "Pablo de la Vega"
+      ],
+      "publisher": "Carson-Dellosa Publishing",
+      "publishedDate": "2020-01-07",
+      "description": "\u003cp\u003e\u003cb\u003eHIGH-INTEREST, LOW-LEVEL:\u003c/b\u003e Reluctant readers will be engaged from beginning to end as they explore the responsibilities and skills of the soccer goalie in this 32-page nonfiction book. Side-by-side English and Spanish text and vivid, exciting photos show readers what it takes to fill this key position in soccer.\u003cp\u003e\u003cp\u003e\u003cp\u003e\u003cb\u003eSPORTS BOOK FOR KIDS:\u003c/b\u003e Soccer goalies are their team's last line of defense. These players must be quick on their feet to stop the other team from scoring a goal. Learn what soccer goalies do to help their team to victory!\u003cp\u003e\u003cp\u003e\u003cp\u003e\u003cb\u003eINCLUDES:\u003c/b\u003e Readers will be hooked from beginning to end with facts and photos about some of the key positions in sports. Comprehension questions and activities support students, teachers, and parents.\u003cp\u003e\u003cp\u003e\u003cp\u003e\u003cb\u003eBENEFITS:\u003c/b\u003e This bilingual series supports reluctant readers with side-by-side English and Spanish text. Each book features stand-alone spreads, so readers can flip pages and read in any order. Glossary words are defined on the page where they appear, boosting reader comprehension.\u003cp\u003e\u003cp\u003e\u003cp\u003e\u003cb\u003eWHY ROURKE:\u003c/b\u003e Since 1980, we’ve been committed to bringing out the best non-fiction books to help you bring out the best in your young learners. Our carefully crafted topics encourage all students who are “learning to read” and “reading to learn\"!\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e\u003c/p\u003e",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "173162896X"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781731628961"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 32,
+      "printedPageCount": 36,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction / Sports & Recreation / Soccer",
+        "Juvenile Nonfiction / Foreign Language Study / English as a Second Language",
+        "Juvenile Nonfiction / Foreign Language Study / Spanish"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.2.1.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE729b7RqY9VjdxiM5XOGNVEdHlLjWsr0VNdrhKwbAz52zDbdGe9R4Cnjs4q6-RtqiwsL3WGkKcHg-tQyacC9S0X7R5VqSJgJdaQXaGjcntAsyMvwaVyGRlIZ_gc9D4NYJm272Ez9&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70p_Zhne01uKghUWZqwtaziFwjNMdJhuuRKuPHeWWwlh_ueEn556QDoP3kF-taC25aCWDbTXatUJWd2Tm-bywOT9CSeORCFVsB46jN7uS05L1-WLA9RJrKl1SDLO_T62kEGBkRn&source=gbs_api",
+        "small": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70_VqjWWrVZRF9oOnpwggPydqeE83bWJ_xSNFXvuOlT2Mx1G_Gs3xZG6m4NRxYe4c5Jyl_ACnFI_uBAEUal6_CVKBuDGHSPmZRDR6mDTj7OpSvydVEf2OVfYGR8mSu8Mx9c89nb&source=gbs_api",
+        "medium": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70bmMdwz5biLsz0w3ApBUSaCNh-MwGPjmDZwnWO3IjJvQRZrU1y386mRiicLRuxjroqJjk0f9z4eHdmUFimZIuEliMjD_rjoH-JdY0ygXbvrqA6_2XUd2TF0-mtGYZQDGMEAnjQ&source=gbs_api",
+        "large": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71rpTixuMMHBK2786XVSFoX9MjUchp6XGkaP21De911J8dEzZGQMAvjA7y6emM_RWLUAJ6bk4VDDxKC97ObrAJsBsdW_O7PtOgqo-blm8om7-jNrDAYXHD9xI8OVMp7OXfnD4J1&source=gbs_api",
+        "extraLarge": "http://books.google.com/books/publisher/content?id=qtmxDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE727ZKwGBPfLw7HCTSwzkxxGu_tuUmHS8VuCFqq_6glkbNB1JlAFXqPUxhlE4vXZSieRrpEZdUSi8HGed7DZ403k0TriAMlAssWs7COnybLCcAxfjG6qvC_7SXzQQCTNnhdEBs9x&source=gbs_api"
+      },
+      "language": "es",
+      "previewLink": "http://books.google.com.co/books?id=qtmxDwAAQBAJ&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=qtmxDwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qtmxDwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CO",
+      "saleability": "FOR_SALE",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 93541,
+        "currencyCode": "COP"
+      },
+      "retailPrice": {
+        "amount": 93541,
+        "currencyCode": "COP"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=qtmxDwAAQBAJ&rdid=book-qtmxDwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 93541000000,
+            "currencyCode": "COP"
+          },
+          "retailPrice": {
+            "amountInMicros": 93541000000,
+            "currencyCode": "COP"
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CO",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com.co/books/download/The_Soccer_Goalie-sample-pdf.acsm?id=qtmxDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=qtmxDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    }
+  }  
+]

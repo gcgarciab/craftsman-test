@@ -3,12 +3,14 @@ module.exports = {
   globals: {},
   testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.vue$': 'vue3-jest',
+    '^.+\\.vue$': '@vue/vue3-jest',
     '^.+\\js$': 'babel-jest',
+    '^.+\\.ts$': 'ts-jest',
   },
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$',
   moduleFileExtensions: ['vue', 'js', 'json', 'jsx', 'ts', 'tsx', 'node'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
-  collectCoverage: true,
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
 };

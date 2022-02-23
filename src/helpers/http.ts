@@ -3,12 +3,14 @@ import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 import { notify } from '@kyvg/vue3-notification';
 
 const httpClient: AxiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  // baseURL: import.meta.env.VITE_API_URL,
+  baseURL: 'https://www.googleapis.com/books/v1',
   headers: {
     'Content-type': 'application/json',
   },
   params: {
-    key: import.meta.env.VITE_API_KEY,
+    // key: import.meta.env.VITE_API_KEY,
+    key: 'AIzaSyBOHLplNlBGDdsnNafhY4uLGBFdMeR3Hpw',
   },
 });
 

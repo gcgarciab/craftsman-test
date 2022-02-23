@@ -23,7 +23,10 @@
 
       <div v-if="volumeInfo.description" class="description item">
         <h4 class="subtitle">Description</h4>
-        <div class="description-data text-left px-5" v-html="volumeInfo.description" />
+        <div
+          class="description-data text-left px-5"
+          v-html="volumeInfo.description"
+        />
       </div>
 
       <div v-if="volumeInfo.categories?.length" class="categories item">
@@ -51,7 +54,11 @@
           </div>
 
           <div class="book-link">
-            <AppButton text="Info" icon="book" @click="goToLink(volumeInfo.infoLink!)" />
+            <AppButton
+              text="Info"
+              icon="book"
+              @click="goToLink(volumeInfo.infoLink!)"
+            />
           </div>
 
           <div class="book-link">
@@ -137,7 +144,9 @@ const currentBook = reactive<Book>({} as Book);
 const { favorites } = storeToRefs(bookStore);
 const bookId = route.params.id as string;
 
-const isSelectedBookEmpty = computed(() => Object.keys(currentBook).length === 0);
+const isSelectedBookEmpty = computed(
+  () => Object.keys(currentBook).length === 0
+);
 
 const saleInfo = computed(() => currentBook.saleInfo);
 const volumeInfo = computed(() => currentBook.volumeInfo);
@@ -159,14 +168,14 @@ function toggleFavoriteBook(id: string) {
   bookStore.toggleFavoriteBook(id);
 }
 
-onBeforeMount(async () => {
-  mainStore.$patch({ isLoading: true });
+// onBeforeMount(async () => {
+//   mainStore.$patch({ isLoading: true });
 
-  const data = await bookStore.fetchBookById(bookId).catch(() => mainStore.$reset());
+//   const data = await bookStore.fetchBookById(bookId).catch(() => mainStore.$reset());
 
-  Object.assign(currentBook, data);
-  mainStore.$reset();
-});
+//   Object.assign(currentBook, data);
+//   mainStore.$reset();
+// });
 </script>
 
 <style scoped>

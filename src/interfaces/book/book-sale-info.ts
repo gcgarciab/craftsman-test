@@ -1,6 +1,6 @@
 import BookOffer from './book-offer';
 import BookPrice from './book-price';
-import BookSaleability from '../../enums/book-saleability';
+import BookSaleability from '@/enums/book-saleability';
 
 export default interface BookSaleInfo {
   buyLink: string;
@@ -9,5 +9,6 @@ export default interface BookSaleInfo {
   listPrice: BookPrice;
   offers: BookOffer[];
   retailPrice: BookPrice;
-  saleability: BookSaleability;
+  saleability: 'FOR_SALE' | 'NOT_FOR_SALE';
+  // saleability: BookSaleability;
 }

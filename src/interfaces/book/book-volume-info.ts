@@ -2,6 +2,7 @@ import BookImage from './book-image';
 import BookIdentifier from './book-identifier';
 import BookReadingMode from './book-reading-mode';
 import BookPanelizationSummary from './book-panelization-summary';
+import BookDimension from './book-dimension';
 
 export default interface BookVolumeInfo {
   allowAnonLogging: boolean;
@@ -11,6 +12,7 @@ export default interface BookVolumeInfo {
   categories: string[];
   contentVersion: string;
   description?: string;
+  dimensions?: Partial<BookDimension>;
   id?: string;
   imageLinks: Partial<BookImage>;
   industryIdentifiers: BookIdentifier[];
@@ -21,6 +23,7 @@ export default interface BookVolumeInfo {
   panelizationSummary?: BookPanelizationSummary;
   previewLink: string;
   printType: string;
+  printedPageCount?: number;
   publishedDate: string;
   publisher: string;
   ratingsCount?: number;
