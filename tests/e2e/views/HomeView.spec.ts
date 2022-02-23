@@ -26,6 +26,9 @@ describe('HomeView', () => {
     const wrapper = mount(HomeView, {
       global: {
         plugins: [createTestingPinia(options)],
+        mocks: {
+          $router: { push: jest.fn() }
+        }
       },
     });
 

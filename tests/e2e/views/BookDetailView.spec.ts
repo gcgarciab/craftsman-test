@@ -71,18 +71,19 @@ describe('BookDetailView', () => {
     expect(store.favorites.length).toBe(0);
   });
 
-  it('Call goToLink method on detail and buy buttons', async () => {
+  it('Call goToLink method on preview and info buttons', async () => {
+    window.open = jest.fn();
     const { store, wrapper } = factory({ stubActions: false });
-    const spy = jest.spyOn(window, 'open');
 
     await flushPromises();
 
     const previewButton = wrapper.find('[data-test="preview-link"]');
+    console.log(previewButton);
     await previewButton.trigger('click');
-    // expect(spy).toBeCalledTimes(1);
+    expect(window.open).toBeCalledTimes(1);
     
-    // const buyButton = wrapper.find('[data-test="buy-link"]');
-    // await buyButton.trigger('click');
-    // expect(spy).toBeCalledTimes(2);
+    const infoButton = wrapper.find('[data-test="info-link"]');
+    await infoButton.trigger('click');
+    expect(window.open).toBeCalledTimes(2);
   });
 })

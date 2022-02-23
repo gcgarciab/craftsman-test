@@ -49,6 +49,7 @@
         v-if="showDetailLink"
         icon="info-circle"
         focus-text="See more"
+        test-name="book-detail"
         :type="ButtonType.BUTTON"
         :color="ButtonColor.PRIMARY"
         @click="goToCurrentBook(id)"

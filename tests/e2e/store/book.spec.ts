@@ -29,11 +29,7 @@ describe('Book store', () => {
     expect(bookStore.books.length).toBeGreaterThan(0);
   });
 
-  // it('FetchFavoriteBooks action', async () => {
-  //   const bookStore = useBookStore();
-    
-  //   bookStore.favorites = favoritesMock;
-
-
-  // });
+  /**
+   * Another actions are tested on views components.
+   */
 });

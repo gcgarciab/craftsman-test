@@ -36,7 +36,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             </div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -52,7 +52,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 32</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -70,7 +70,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 28</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -88,7 +88,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -108,7 +108,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             </div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -126,7 +126,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 32</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -144,7 +144,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -162,7 +162,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -180,7 +180,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (ES) <span class=\\"total-pages mt-3\\"> - Pages: 24</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>
@@ -198,7 +198,7 @@ exports[`HomeView Call fetchBooks action from store, and render results 1`] = `
             <div class=\\"language mt-3\\"> Language: (EN) <span class=\\"total-pages mt-3\\"> - Pages: 192</span></div>
           </div>
         </div>
-        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"button\\" type=\\"button\\" title=\\"See more\\">
+        <div class=\\"card-actions absolute right-6 top-6 w-20 flex justify-between\\"><button class=\\"text-white px-2 flex items-center justify-center primary\\" data-test=\\"book-detail\\" type=\\"button\\" title=\\"See more\\">
             <fa class=\\"icon text-sm\\" icon=\\"info-circle\\"></fa>
           </button><button class=\\"text-white px-2 flex items-center justify-center default\\" data-test=\\"add-to-favorites\\" type=\\"button\\" title=\\"Add to favorites\\">
             <fa class=\\"icon text-sm\\" icon=\\"heart\\"></fa>

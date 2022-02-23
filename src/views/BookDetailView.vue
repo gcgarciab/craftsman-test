@@ -160,7 +160,6 @@ const volumeInfo = computed(() => currentBook.volumeInfo);
  * @param url => Buy URL
  */
 function goToLink(url: string): void {
-  console.log('Click !!');
   window.open(url, '_blank');
 }
 
