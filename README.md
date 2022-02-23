@@ -15,10 +15,10 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - Use the to keep code consistent and readable. The codebase within this project has linting errors, and these will need to be resolved so that you can continue development - DONE
 - Use a router within the code, create a `SuperheroView` component and apply it to the route `/superhero` - DONE
 - Using (or another library if you'd prefer) create a search input which will either a list of books or the super heros from the open API's provided above. - DONE
-- Use a responsive design approach to make the layout work on a range of screen sizes - WORKING ON IT
-- Try to create a good user experience - WORKING ON IT
+- Use a responsive design approach to make the layout work on a range of screen sizes - DONE
+- Try to create a good user experience - I THINK DONE
 - Think about folder structure, and keeping code organised - DONE
-- Consider cross-browser support (Chrome, Firefox, Safari, Microsoft Edge) - TODO
+- Consider cross-browser support (Chrome, Firefox, Safari, Microsoft Edge) - DONE
 
 ---
 
@@ -37,7 +37,7 @@ All of the above requirements, plus:
 All of the above requirements, plus:
 
 - Allow the user to save heroes in state managent and then list them out on a different page - DONE
-- Add option to sort the saved results by full-name / strength / gender / alignment - TODO
+- Add option to sort the saved results by full-name / strength / gender / alignment -
 
 ---
 
@@ -50,6 +50,6 @@ All of the above requirements, plus:
 
 * Create a more advanced search with extra features
 * Create custom routes to load specific heroes/books - DONE
-* Introduce Unit testing - TODO
-* Use the TDD process
+* Introduce Unit testing - DONE
+* Use the TDD process - SOOOO :v
 * Use typescript - DONE
